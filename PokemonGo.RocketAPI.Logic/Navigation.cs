@@ -8,7 +8,7 @@ namespace PokemonGo.RocketAPI.Logic
 {
     public class Navigation
     {
-
+        //logic
         private static readonly double  speedDownTo = 10 /3.6;
         private readonly Client _client;
 
