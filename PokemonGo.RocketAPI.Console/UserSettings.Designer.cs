@@ -73,30 +73,6 @@ namespace PokemonGo.RocketAPI.Console {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("52.379189")]
-        public double DefaultLatitude {
-            get {
-                return ((double)(this["DefaultLatitude"]));
-            }
-            set {
-                this["DefaultLatitude"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("4.899431")]
-        public double DefaultLongitude {
-            get {
-                return ((double)(this["DefaultLongitude"]));
-            }
-            set {
-                this["DefaultLongitude"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("10")]
         public double DefaultAltitude {
             get {
@@ -109,18 +85,6 @@ namespace PokemonGo.RocketAPI.Console {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("85")]
-        public float KeepMinIVPercentage {
-            get {
-                return ((float)(this["KeepMinIVPercentage"]));
-            }
-            set {
-                this["KeepMinIVPercentage"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1000")]
         public int KeepMinCP {
             get {
@@ -128,18 +92,6 @@ namespace PokemonGo.RocketAPI.Console {
             }
             set {
                 this["KeepMinCP"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("50")]
-        public double WalkingSpeedInKilometerPerHour {
-            get {
-                return ((double)(this["WalkingSpeedInKilometerPerHour"]));
-            }
-            set {
-                this["WalkingSpeedInKilometerPerHour"] = value;
             }
         }
         
@@ -164,6 +116,54 @@ namespace PokemonGo.RocketAPI.Console {
             }
             set {
                 this["TransferDuplicatePokemon"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("36.80204")]
+        public double DefaultLatitude {
+            get {
+                return ((double)(this["DefaultLatitude"]));
+            }
+            set {
+                this["DefaultLatitude"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("34.63328")]
+        public double DefaultLongitude {
+            get {
+                return ((double)(this["DefaultLongitude"]));
+            }
+            set {
+                this["DefaultLongitude"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public float KeepMinIVPercentage {
+            get {
+                return ((float)(this["KeepMinIVPercentage"]));
+            }
+            set {
+                this["KeepMinIVPercentage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("20")]
+        public double WalkingSpeedInKilometerPerHour {
+            get {
+                return ((double)(this["WalkingSpeedInKilometerPerHour"]));
+            }
+            set {
+                this["WalkingSpeedInKilometerPerHour"] = value;
             }
         }
     }
